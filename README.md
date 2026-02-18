@@ -47,7 +47,7 @@ Run all cells — the notebook will extract frames, compute features, filter, an
 
 ## Configuration
 
-These parameters can be adjusted in **Section 2** of the notebook:
+These parameters can be adjusted in the notebook:
 
 | Parameter | Default | Description |
 |---|---|---|
@@ -80,4 +80,5 @@ These parameters can be adjusted in **Section 2** of the notebook:
 - **Matplotlib** — Visualization (similarity plots, frame grids)
 - **NumPy** — Array operations
 - **Pillow** — Image format conversion
+
 
