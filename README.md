@@ -2,7 +2,7 @@
 
 **Video Summarization via Feature-Based Frame Filtering**
 
-A Python tool that intelligently summarizes videos by extracting key frames using deep learning. It leverages a pre-trained **ResNet-50** to compute feature representations of sampled frames, then uses **Cosine Similarity** to filter out redundant frames — keeping only the visually distinct ones.
+A Python tool that intelligently summarizes videos by extracting key frames using deep learning. It leverages a pre-trained **ResNet-50** to compute feature representations of sampled frames, then uses **Cosine Similarity** to filter out redundant frames keeping only the visually distinct ones.
 
 ## How It Works
 
@@ -68,8 +68,8 @@ These parameters can be adjusted in **Section 2** of the notebook:
 
 ```
 ├── smart_frame_filter.ipynb   # Main notebook
-├── README.md                  # This file
-├── sample_video.mp4           # Your input video (not included)
+├── README.md                  
+├── sample_video.mp4           # Input video
 └── output_frames/             # Filtered key frames (generated)
 ```
 
@@ -80,3 +80,4 @@ These parameters can be adjusted in **Section 2** of the notebook:
 - **Matplotlib** — Visualization (similarity plots, frame grids)
 - **NumPy** — Array operations
 - **Pillow** — Image format conversion
+
