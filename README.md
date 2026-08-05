@@ -112,7 +112,7 @@ The filtering step reduces the number of frames while keeping visually distinct 
 ### 1. Install Dependencies
 
 ```bash
-pip install torch torchvision opencv-python matplotlib numpy Pillow
+pip install -r requirements.txt
 ```
 
 ---
@@ -188,6 +188,7 @@ A lower threshold produces fewer frames, while a higher threshold preserves more
 .
 ├── frame_distill.ipynb        # Main implementation notebook
 ├── README.md
+├── requirements.txt
 ├── sample_video.mp4           # Example input video
 └── output_frames/             # Generated key frames
 ```
